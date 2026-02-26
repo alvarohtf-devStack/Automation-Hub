@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation Hub | Sniper Workflow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="modo-claro">
+    
+    <div id="privacy-notice" class="privacy-bar">
+        <p>Este chatbot utiliza cookies para otimizar sua experiência e integrações via Make. Ao interagir, você concorda com nossos termos de uso.</p>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-crosshairs"></i> Automation<span>Hub</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#" onclick="abrirModal()">Python</a></li>
+                    <li><a href="#" onclick="abrirModal()">JavaScript</a></li>
+                    <li><a href="#" onclick="abrirModal()">PHP</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="btn-theme">Tema</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Estratégia 80/20: Automação & Performance</h1>
+            <p class="intro">
+                Dominando ferramentas de automação (Make/Zapier) e focando no esforço técnico que gera resultados reais. 
+                Seu primeiro código começa aqui, sua autonomia começa agora.
+            </p>
+        </section>
+
+        <section class="zona-sniper">
+            <div class="zona-azul">
+                <h2>Monitoramento: N10 até N15</h2>
+                <p>Status do Fluxo: <strong>analisador_sniper_v5_aprendiz.py</strong> está pronto.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="video-box">
+                <h3>O Caminho da Automação</h3>
+                <iframe src="https://www.youtube.com/embed/22nd99SLgNA" title="Guia de Programação" frameborder="0" allowfullscreen></iframe>
+                <p class="creditos">Créditos: Manual do Mundo</p>
+            </div>
+            
+            <div class="info-box">
+                <h2>O Desenvolvimento Começa Aqui</h2>
+                <p>Programar é resolver problemas. Meu foco é atuar nos 20% do esforço para entregar 80% dos resultados.</p>
+                <ul class="skills-list">
+                    <li><i class="fab fa-python"></i> Automação Python (Minerador/Expansor)</li>
+                    <li><i class="fas fa-project-diagram"></i> Integrações via Make.com</li>
+                    <li><i class="fas fa-tools"></i> Reparos em Sistemas e Sites</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div id="chat-container" class="chatbot">
+        <div class="chat-header">
+            <span><i class="fas fa-robot"></i> Assistente Sniper</span>
+            <button onclick="toggleChat()" class="close-chat">&times;</button>
+        </div>
+        <div id="chat-window" class="chat-body">
+            <p class="bot-msg">Olá! Como posso ajudar com sua automação hoje?</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chat-input" placeholder="Digite sua dúvida...">
+            <button id="btn-enviar"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <h3>Automation Hub</h3>
+            <p>"Seu primeiro código começa aqui."</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copy">Copyright &copy; 2026 - Automação Sniper</p>
+        </div>
+    </footer>
+
+    <div id="meuModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="fecharModal()">&times;</span>
+            <h3>Página em Construção</h3>
+            <p>Logo teremos novidades e cursos detalhados sobre esta tecnologia.</p>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
